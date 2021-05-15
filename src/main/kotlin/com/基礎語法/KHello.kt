@@ -1,4 +1,4 @@
-package com.ktest
+package com.基礎語法
 
 import com.jtest.JHello
 
@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
     //呼叫JHello 的 callMe()
     val j = JHello()
     j.callMe()
-    //呼叫\KHello 的 callMe()
+    // 呼叫\KHello 的 callMe()
     val k = KHello()
     k.callMe()
 }
